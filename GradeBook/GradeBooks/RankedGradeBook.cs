@@ -37,7 +37,7 @@ namespace GradeBook.GradeBooks
         {
             if (Students.Count < 5)
             {
-                throw new InvalidOperationException("Ranked grading requires at least 5 students.");
+                Console.WriteLine("Ranked grading requires at least 5 students.");
                 return;
             }
 
@@ -48,7 +48,7 @@ namespace GradeBook.GradeBooks
         {
             if (Students.Count < 5)
             {
-                throw new InvalidOperationException("Ranked grading requires at least 5 students.");
+                Console.WriteLine("Ranked grading requires at least 5 students.");
                 return;
             }
 
